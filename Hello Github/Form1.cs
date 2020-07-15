@@ -16,5 +16,22 @@ namespace Hello_Github
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string isi;
+            isi = textBox1.Text;
+            label1.Text = isi
+        }
     }
 }
